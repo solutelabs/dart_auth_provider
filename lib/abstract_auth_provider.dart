@@ -1,4 +1,7 @@
 abstract class AuthProvider {
+  //Return [true] if session is Active, false otherwise.
+  Future<bool> isSessionActive();
+
   ///Base sign-in method that will be used to sign in via id and password or even sending a verification code.
   ///The [id] can be used as a pre validated Mobile number, userId or email depending on a use case.
   ///Both [id] and [password] are option arguments, and depending on implementation it should be asserted.
