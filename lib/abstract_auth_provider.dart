@@ -22,6 +22,11 @@ abstract class AuthProvider {
   ///Retrieve session
   Future<Map<String, dynamic>> retrieveSessionData();
 
+  ///Fetch additional data from Server in case of lost or separate API
+  Future<Map<String, dynamic>> fetchAdditionalData({
+    Map<String, dynamic> authToken,
+  });
+
   ///Logout the session
   Future<bool> logout();
 }
