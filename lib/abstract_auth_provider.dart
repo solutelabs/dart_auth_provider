@@ -16,6 +16,9 @@ abstract class AuthProvider {
   /// If authentication can be completed via [signIn] then, this method can be left unimplemented.
   Future<Map<String, dynamic>> verifyPassword({String password});
 
+  ///Custom sign-up. Use data to pass all the required params.
+  Future<Map<String, dynamic>> signUp({Map<String, dynamic> data});
+
   ///Cache the session related data which can be retrieved later
   Future<bool> cacheSessionData(Map<String, dynamic> sessionData);
 
