@@ -11,5 +11,5 @@ Add this package as a dependency in `pubspec.yaml`
 ```
 auth_provider:
     git:
-      url: https://github.com/solutelabs/dart_auth_provider.git
+      url: git@github.com:solutelabs/dart_auth_provider.git
 ``` 
