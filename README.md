@@ -5,7 +5,7 @@ The package provides all necessary methods required while authentication.
 
 The package also contains session storage implementation based on [Secure Storage](https://pub.dev/packages/flutter_secure_storage).
 
-##Installation
+## Installation
 Add this package as a dependency in `pubspec.yaml`
 
 ```
