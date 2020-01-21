@@ -13,3 +13,11 @@ auth_provider:
     git:
       url: git@github.com:solutelabs/dart_auth_provider.git
 ``` 
+
+## Open source Implementations
+
+### Google Auth for Flutter
+[Google authentication implementation](https://github.com/solutelabs/flutter_google_signin_provider) for Flutter based on Dart Auth Provider.
+
+### Facebook Auth for Flutter
+[Facebook authentication implementation](https://github.com/solutelabs/flutter_facebook_signin_provider) for Flutter based on Dart Auth Provider.
